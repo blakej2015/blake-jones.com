@@ -362,6 +362,7 @@ author: "blake2019"
       <nav class="toplinks">
         <a class="chip" href="#suite">Suite</a>
         <a class="chip" href="#plugins">Plugins</a>
+        <a class="chip" href="#software">Software</a>
         <a class="chip" href="#demo">Demo</a>
         <a class="chip" href="#how">How it works</a>
         <a class="chip" href="colorist.html">Colorist</a>
@@ -372,7 +373,7 @@ author: "blake2019"
 
     <div class="hero">
       <section class="heroCard">
-        # Restore, stabilise and clean your scans — fast.
+        <h1>Restore, stabilise and clean your scans — fast.</h1>
 
         <p>
           A set of OFX plugins designed for high‑quality restoration workflows in DaVinci Resolve.
@@ -391,20 +392,20 @@ author: "blake2019"
         </div>
         <div class="divider"></div>
         <ul class="list">
-          - <span class="dot"></span><span>**Suite license** unlocks all plugins.</span>
+          <li><span class="dot"></span><span><strong>Suite license</strong> unlocks all plugins.</span></li>
 
-          - <span class="dot"></span><span>**Individual licenses** available per plugin.</span>
+          <li><span class="dot"></span><span><strong>Individual licenses</strong> available per plugin.</span></li>
 
-          - <span class="dot"></span><span>After purchase you’ll receive a license key by email (or contact [<u>info@cloudstudio.me</u>](mailto:info@cloudstudio.me)).</span>
-
+          <li><span class="dot"></span><span>After purchase you’ll receive a license key by email (or contact <a href="mailto:info@cloudstudio.me"><u>info@cloudstudio.me</u></a>).</span></li>
+        </ul>
         
       </section>
 
       <aside class="sidebar">
         <div class="mini" id="suite">
-          ### Restoration OFX Suite
+          <h3>Restoration OFX Suite</h3>
 
-          Everything included. Best value if you’re restoring film regularly.
+          <p>Everything included. Best value if you’re restoring film regularly.</p>
 
           <div class="priceRow">
             <div class="price">€1200</div>
@@ -415,18 +416,17 @@ author: "blake2019"
         </div>
 
         <div class="mini">
-          ### Need help?
-
+          <h3>Need help?</h3>
           <p>
             Questions about installation, licensing or workflow? Email
-            [<u>info@cloudstudio.me</u>](mailto:info@cloudstudio.me).
+            <a href="mailto:info@cloudstudio.me"><u>info@cloudstudio.me</u></a>.
           </p>
         </div>
       </aside>
     </div>
 
     <section class="section" id="plugins">
-      ## Individual Plugins — from €150
+      <h2>Individual Plugins — from €150</h2>
 
       <div class="grid">
         <div class="card">
@@ -601,6 +601,42 @@ author: "blake2019"
         </div>
 
         <div class="card">
+          <p class="name">Dust Buster</p>
+          <p class="desc">Automatically detect and remove dust spots and dirt from scanned film frames.</p>
+          <div class="priceRow">
+            <div class="price">€150</div>
+            <a class="btn primary" href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer">Buy</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="name">Frame Reconstruction AI</p>
+          <p class="desc">AI-powered reconstruction of missing, torn or severely damaged frames using surrounding context.</p>
+          <div class="priceRow">
+            <div class="price">€150</div>
+            <a class="btn primary" href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer">Buy</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="name">Image Stabilizer</p>
+          <p class="desc">Stabilise footage using still-image reference alignment for rock-solid archival output.</p>
+          <div class="priceRow">
+            <div class="price">€150</div>
+            <a class="btn primary" href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer">Buy</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="name">Perf Stabilizer</p>
+          <p class="desc">Sprocket-hole / perforation-based stabilisation for precise gate weave correction.</p>
+          <div class="priceRow">
+            <div class="price">€150</div>
+            <a class="btn primary" href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer">Buy</a>
+          </div>
+        </div>
+
+        <div class="card">
           <p class="name">Prefer the full suite?</p>
           <p class="desc">Unlock everything with one suite key.</p>
           <div class="priceRow">
@@ -611,8 +647,27 @@ author: "blake2019"
       </div>
     </section>
 
+    <section class="section" id="software">
+      <h2>Windows Software</h2>
+      <div class="grid">
+        <div class="card">
+          <p class="name">Video Kiosk</p>
+          <p class="desc">Touchscreen video browser for exhibits and installations. Runs fullscreen on Windows 11, scans your Videos folder automatically, supports mouse and touch. Play, seek and control volume — no keyboard needed.</p>
+          <div class="badges" style="margin:10px 0 0;">
+            <span class="badge">Windows 11</span>
+            <span class="badge alt">Touch &amp; Mouse</span>
+            <span class="badge">Exhibit / Kiosk</span>
+          </div>
+          <div class="priceRow">
+            <div class="price">€45</div>
+            <a class="btn primary" href="https://paypal.me/StuartBlakeJones/45" target="_blank" rel="noreferrer">Buy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="demo">
-      ## Demo
+      <h2>Demo</h2>
 
       <p class="small">Example of the plugins in use (including Noise Reduction).</p>
       <div class="videoWrap" aria-label="Product demo video">
@@ -629,28 +684,23 @@ author: "blake2019"
     </section>
 
     <section class="section" id="how">
-      ## How purchase & delivery works
+      <h2>How purchase &amp; delivery works</h2>
 
       <ul class="list">
-        - <span class="dot"></span><span>**Pay with PayPal** using the buttons above.</span>
-
-        - <span class="dot"></span><span>**Delivery:** after payment you will receive installation + licensing instructions and your license key.</span>
-
-        - <span class="dot"></span><span>**Platforms:** macOS supported. **Windows version available (beta) for all plugins.**</span>
-
-        - <span class="dot"></span><span>**Support:** email [<u>info@cloudstudio.me</u>](mailto:info@cloudstudio.me) for questions.</span>
-
-      
+        <li><span class="dot"></span><span><strong>Pay with PayPal</strong> using the buttons above.</span></li>
+        <li><span class="dot"></span><span><strong>Delivery:</strong> after payment you will receive installation + licensing instructions and your license key.</span></li>
+        <li><span class="dot"></span><span><strong>Platforms:</strong> macOS supported. <strong>Windows version available (beta) for all plugins.</strong></span></li>
+        <li><span class="dot"></span><span><strong>Support:</strong> email <a href="mailto:info@cloudstudio.me"><u>info@cloudstudio.me</u></a> for questions.</span></li>
       <div class="divider"></div>
       <p class="small">
         Note: PayPal links open in a new tab. If you prefer an invoice or a different payment method, contact
-        [<u>info@cloudstudio.me</u>](mailto:info@cloudstudio.me).
+        <a href="mailto:info@cloudstudio.me"><u>info@cloudstudio.me</u></a>.
       </p>
     </section>
 
    
     <footer>
-      © <span id="y"></span> CloudStudio • Contact: [<u>info@cloudstudio.me</u>](mailto:info@cloudstudio.me)
+      © <span id="y"></span> CloudStudio • Contact: <a href="mailto:info@cloudstudio.me"><u>info@cloudstudio.me</u></a>
     </footer>
   </div>
 
