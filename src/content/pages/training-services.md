@@ -387,10 +387,10 @@ author: "blake2019"
         <span>DaVinci Resolve Colorist Training</span>
       </div>
       <div class="navlinks">
-        [Programs](#programs)
-        [Samples](#videos)
-        [Clients](#clients)
-        [Enquire](#contact)
+        <a href="#programs">Programs</a>
+        <a href="#videos">Samples</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Enquire</a>
       </div>
     </div>
 
@@ -405,7 +405,7 @@ author: "blake2019"
         <div class="ctaRow">
           <a class="btn btnPrimary" href="#programs">View programs</a>
           <a class="btn" href="mailto:blake@cloudstudio.me?subject=Resolve%20Training%20Enquiry">Enquire by email</a>
-          <a class="btn" href="https://paypal.me/StuartBlakeJones">Pay via PayPal</a>
+          <a class="btn" href="https://paypal.me/blakejones209">Pay via PayPal</a>
         </div>
 
         <div class="small">
@@ -440,24 +440,17 @@ author: "blake2019"
       <div class="pricing">
         <div class="card">
           <div class="pill">Resolve 101</div>
-          ### Basic / Starter
-
-          Perfect if you want a clean foundation and reliable workflows.
-
-          
-            - Resolve interface & project setup
-
-            - Media management, timelines, deliverables
-
-            - Primary grading fundamentals
-
-            - Scopes, balancing, and shot matching
-
-            - Workflow best practices (speed + consistency)
-
-          
+          <h3>Basic / Starter</h3>
+          <p>Perfect if you want a clean foundation and reliable workflows.</p>
+          <ul>
+            <li>Resolve interface &amp; project setup</li>
+            <li>Media management, timelines, deliverables</li>
+            <li>Primary grading fundamentals</li>
+            <li>Scopes, balancing, and shot matching</li>
+            <li>Workflow best practices (speed + consistency)</li>
+          </ul>
           <div class="ctaRow" style="margin-top:14px">
-            <a class="btn btnSmall btnPrimary" href="https://paypal.me/StuartBlakeJones">Pay via PayPal</a>
+            <a class="btn btnSmall btnPrimary" href="https://paypal.me/blakejones209">Pay via PayPal</a>
             <a class="btn btnSmall" href="mailto:blake@cloudstudio.me?subject=Resolve%20101%20Training%20Enquiry">Enquire</a>
           </div>
           <div class="sub">Rate: €870/day (PayPal or bank transfer)</div>
@@ -465,24 +458,17 @@ author: "blake2019"
 
         <div class="card">
           <div class="pill">Resolve 201</div>
-          ### Advanced
-
-          For working colorists and teams who want tighter control and better repeatability.
-
-          
-            - Advanced grading strategies & look development
-
-            - Node structures for speed and consistency
-
-            - Keying, secondaries, tracking, and problem shots
-
-            - Finishing workflows & deliverables
-
-            - Diagnostics & optimization (performance and stability)
-
-          
+          <h3>Advanced</h3>
+          <p>For working colorists and teams who want tighter control and better repeatability.</p>
+          <ul>
+            <li>Advanced grading strategies &amp; look development</li>
+            <li>Node structures for speed and consistency</li>
+            <li>Keying, secondaries, tracking, and problem shots</li>
+            <li>Finishing workflows &amp; deliverables</li>
+            <li>Diagnostics &amp; optimization (performance and stability)</li>
+          </ul>
           <div class="ctaRow" style="margin-top:14px">
-            <a class="btn btnSmall btnPrimary" href="https://paypal.me/StuartBlakeJones">Pay via PayPal</a>
+            <a class="btn btnSmall btnPrimary" href="https://paypal.me/blakejones209">Pay via PayPal</a>
             <a class="btn btnSmall" href="mailto:blake@cloudstudio.me?subject=Resolve%20201%20Training%20Enquiry">Enquire</a>
           </div>
           <div class="sub">Rate: €870/day (PayPal or bank transfer)</div>
@@ -491,14 +477,14 @@ author: "blake2019"
 
       <div class="grid2" style="margin-top:14px">
         <div class="card">
-          ### Online training (Zoom)
+          <h3>Online training (Zoom)</h3>
 
           <p>
             Training can be taught online using the Zoom application. A recording can be provided for later reference.
           </p>
         </div>
         <div class="card">
-          ### Onsite training (teams up to 10)
+          <h3>Onsite training (teams up to 10)</h3>
 
           <p>
             Training can be delivered onsite to your group of up to ten people. Travel, hotel and food are charged in addition.
@@ -567,28 +553,24 @@ author: "blake2019"
       <h2 class="sectionTitle">Enquire / booking</h2>
       <div class="grid2">
         <div class="card">
-          ### Email
-
-          For availability, scheduling, onsite quotes, and bank transfer details.
+          <h3>Email</h3>
+          <p>For availability, scheduling, onsite quotes, and bank transfer details.</p>
 
           <div class="ctaRow" style="margin-top:14px">
             <a class="btn btnPrimary" href="mailto:blake@cloudstudio.me?subject=Resolve%20Training%20Enquiry">Enquire by email</a>
-            <a class="btn" href="https://paypal.me/StuartBlakeJones">Pay via PayPal</a>
+            <a class="btn" href="https://paypal.me/blakejones209">Pay via PayPal</a>
           </div>
-          <div class="small">Email: [blake@cloudstudio.me](mailto:blake@cloudstudio.me)</div>
+          <div class="small">Email: <a href="mailto:blake@cloudstudio.me">blake@cloudstudio.me</a></div>
         </div>
         <div class="card">
-          ### Payment options
-
+          <h3>Payment options</h3>
           <p>
             Payment via PayPal or direct bank transfer. Certificate received upon completion.
           </p>
-          
-            - PayPal: [paypal.me/StuartBlakeJones](https://paypal.me/StuartBlakeJones)
-
-            - Bank transfer: details provided on request
-
-          
+          <ul>
+            <li>PayPal: <a href="https://paypal.me/blakejones209">paypal.me/blakejones209</a></li>
+            <li>Bank transfer: details provided on request</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -596,9 +578,6 @@ author: "blake2019"
     <div class="footer">
       <div>
         © <span id="y"></span> Blake Jones. Training delivered online via Zoom or onsite by arrangement.
-      </div>
-      <div class="small">
-        Built as a static HTML page. To embed in WordPress/Squarespace, you can use an HTML block and paste the full contents.
       </div>
     </div>
   </div>

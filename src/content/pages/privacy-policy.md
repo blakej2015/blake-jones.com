@@ -1,72 +1,92 @@
 ---
 title: "Privacy Policy"
-description: "
-
-
-
-
-Privacy Policy — Colorist Tool Kit 2026
-
-
-
-Last updated:&nbsp;May 3, 2026
-
-
-
-This Privacy Policy explains how&nbsp;Colorist Tool Kit 2026&nbsp;(“..."
-pubDate: 2026-05-03
+description: "Privacy policies for Colorist Tool Kit Lite, Colorist Tool Kit Pro, and Colorist Tool Kit 2026 iOS apps by Blake Jones."
+pubDate: 2026-07-20
 author: "blake2019"
 ---
 
+<hr/>
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+### **Privacy Policies -- Colorist Tool Kit Apps**
 
-<h3>**Privacy Policy — Colorist Tool Kit 2026**</h3>
+**Last updated:** July 20, 2026
+
+This page covers the privacy policies for all Colorist Tool Kit apps. Each app shares the same privacy principles.
+
+- <a href="/privacy-policy-colorist-tool-kit-lite">Colorist Tool Kit Lite -- Privacy Policy</a>
+- <a href="/privacy-policy-colorist-tool-kit-pro">Colorist Tool Kit Pro -- Privacy Policy</a>
+
+<hr/>
+
+### **Privacy Policy -- Colorist Tool Kit 2026**
 
 **Last updated:** May 3, 2026
 
-This Privacy Policy explains how **Colorist Tool Kit 2026** (“the App”) handles information.
+This Privacy Policy explains how **Colorist Tool Kit 2026** ("the App") handles information.
 
-<h4>Information you provide in the App</h4>
+#### Information you provide in the App
 
-The App includes tools such as checklists, text conversion, and calculators. Any information you enter (for example notes, checklist items, or text) is stored **locally on your device**. The App does not require an account.
+The App includes tools such as checklists, text conversion, and calcula---
+title: "Privacy Policy"
+description: "Privacy policies for Colorist Tool Kit Lite, Colorist Tool Kit Pro, and Colorispp doedescription: "Privacy ntpubDate: 2026-07-20
+author: "blake2019"
+---
 
-<h4>Data collection</h4>
+<hr/>
 
-The App does **not** include third‑party analytics or advertising SDKs.
+### **Privacy Policies -- Colorist Tool Kit Apps**
 
-The App may still handle limited technical information as part of normal operation (for example device and system information used by iOS), but the App is designed to function without collecting user analytics.
+**Last updated:** July 20, 20chauthor: "blake2019as---
 
-<h4>Web content and third‑party services</h4>
+<hr/>
 
-The App may display web content from third‑party services, including:
+### **er
+<ion (for e
+**Last updated:** July 20, 2026
 
-<ul>
-- YouTube (embedded web content)
+Thiused by iOS), b
+This page covers the privacy tio
+- <a href="/privacy-policy-colorist-tool-kit-lite">Colorist Tool Kit Lite -- Privacy Policy</a>
+- <a href="/privfro- <a href="/privacy-policy-colorist-tool-kit-pro">Colorist Tool Kit Pro -- Privacy Policy</a>
+Tr
+<hr/>
+
+### **Privacy Policy -- Colorist Tool Kit 2026**
+
+**Last updated, those services may co
+###t i
+**Last updated:** May 3, 2026
+
+This Privacy Poies
+This Privacy Policy explainf d
+#### Information you provide in the App
+
+The App includes tools such as checklists, text cf="
+The App includes tools such as checklargtitle: "Privacy Policy"
+description: "Privacy policies for Colorist Tool </description: "Privacy ouauthor: "blake2019"
+---
+
+<hr/>
+
+### **Privacy Policies -- Colorist Tool Kit Apps**
+
+**Last updated:** Jl be sent using the destination app/serv---
+
+<hr/>
+
+### **##
+<Chi
+#ren
 
 
+**Last updated:** July 20, 20chauthor: "blake201 13
+<hr/>
 
-- blake-jones.com pages (Training Services, OFX Plugin Webshop)
+### **er
+<ion (for e
+**Last updated:** July 2vac
+#Polic<ion (fac**Last upd J
+Thiused by iOS), b
+This page ke-This page coverget=- <a href="/privacy-policy-coloer- <a href="/privfroes.com/</a>
 
-
-
-When you view embedded web content, those services may collect information according to their own privacy policies. Their collection and use of data is governed by their policies, not this App.
-
-<ul>
-- YouTube / Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer noopener" class="">https://policies.google.com/privacy</a>
-
-
-
-<h4>Sharing</h4>
-
-If you use iOS sharing features (for example Share Sheet) to export text, the content you choose to share will be sent using the destination app/service you select.
-
-<h4>Children</h4>
-
-The App is not intended for use by children under 13.
-
-<h4>Contact</h4>
-
-If you have questions about this Privacy Policy, contact: **Blake Jones**<br><a href="https://blake-jones.com/" class="" target="_blank" rel="noreferrer noopener">https://blake-jones.com/</a>
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr/>

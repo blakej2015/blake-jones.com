@@ -16,6 +16,16 @@ const { title, description = "Blake Jones - Colorist, Consultant, Instructor and
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GHKRZMDL0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9GHKRZMDL0');
+    </script>
+    <!-- Umami Analytics -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="c87b9c53-4e9d-4a07-bb0b-d67288823c37"></script>
   </head>
   <body>
     <header>
@@ -32,6 +42,8 @@ const { title, description = "Blake Jones - Colorist, Consultant, Instructor and
           <a href="/youtube-channel">YouTube</a>
           <a href="/tips-and-tricks-videos">Tips</a>
           <a href="/webshop">Webshop</a>
+          <a href="/license-request">License Request</a>
+          <a href="/support">Support</a>
           <a href="/links">Links</a>
         </nav>
       </div>

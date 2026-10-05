@@ -25,9 +25,16 @@ Professional film restoration plugins for DaVinci Resolve (OFX)[Suite](#suite)[P
 
 A set of OFX plugins designed for high‑quality restoration workflows in DaVinci Resolve. Buy the full suite or individual tools. Offline licensing with a simple activation workflow.
 
+<h2>Downloads</h2>
+
+<ul>
+  <li><a href="/downloads/CreativeRestoration-PluginBundle.dmg" download>Download Creative Restoration Plugin Bundle (macOS DMG)</a></li>
+  <li><a href="/downloads/CreativeRestoration-Instructions.pdf" download>Download Installation & Usage Instructions (PDF)</a></li>
+</ul>
+
 DaVinci Resolve (OFX)Offline licensemacOS
 
-<a href="https://paypal.me/StuartBlakeJones/1200" target="_blank" rel="noreferrer noopener">Buy Suite — €1200</a>[View individual plugins](#plugins)[Ask a question](mailto:info@cloudstudio.me)
+<a href="https://paypal.me/blakejones209/1200" target="_blank" rel="noreferrer noopener">Buy Suite — €1200</a>[View individual plugins](#plugins)[Ask a question](mailto:info@cloudstudio.me)
 
 <ul>
 - **Suite license** unlocks all plugins.
@@ -50,7 +57,7 @@ Everything included. Best value if you’re restoring film regularly.
 
 One suite key unlocks all
 
-<a href="https://paypal.me/StuartBlakeJones/1200" target="_blank" rel="noreferrer noopener">Pay with PayPal</a>
+<a href="https://paypal.me/blakejones209/1200" target="_blank" rel="noreferrer noopener">Pay with PayPal</a>
 
 <h3>Need help?</h3>
 
@@ -64,7 +71,7 @@ Reduce grain while preserving detail. Spatial/temporal options.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Film Stabilizer 3D
 
@@ -72,7 +79,7 @@ Stabilisation with marker workflow for tricky archival footage.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Vertical Scratch Fix
 
@@ -80,7 +87,7 @@ Reduce vertical scratches and scanning artefacts.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Blue Stain Fix
 
@@ -88,7 +95,7 @@ Remove blue/yellow staining with mask and eyedropper tools.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Film Warp Fix
 
@@ -96,7 +103,7 @@ Correct warp and distortion for improved stability and alignment.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Technicolor Registration Fix
 
@@ -104,7 +111,7 @@ Align color channels and reduce Technicolor registration errors.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Technicolor Look
 
@@ -112,7 +119,7 @@ Classic film look emulation with fine-tuned controls.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Optical Sound to WAV
 
@@ -120,7 +127,7 @@ Convert optical soundtrack scans into WAV audio output.
 
 €150
 
-<a href="https://paypal.me/StuartBlakeJones/150" target="_blank" rel="noreferrer noopener">Buy</a>
+<a href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer noopener">Buy</a>
 
 Prefer the full suite?
 
@@ -128,7 +135,7 @@ Unlock everything with one suite key.
 
 €1200
 
-<a href="https://paypal.me/StuartBlakeJones/1200" target="_blank" rel="noreferrer noopener">Buy Suite</a>
+<a href="https://paypal.me/blakejones209/1200" target="_blank" rel="noreferrer noopener">Buy Suite</a>
 
 <h2>How purchase & delivery works</h2>
 

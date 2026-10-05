@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=1080"/>
+  <title>Training Ad 1080x1080</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      background: #0a0a0a;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .canvas {
+      position: relative;
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+    }
+
+    /* Photo — right half, face stays roughly x:400-1080 */
+    .photo {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 620px;
+      height: 1080px;
+      object-fit: cover;
+      object-position: 60% center;
+    }
+
+    /* Dark gradient left-to-right so text is readable */
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        #0a0a0a 0%,
+        #0a0a0a 42%,
+        rgba(10,10,10,0.85) 58%,
+        rgba(10,10,10,0.1) 100%
+      );
+    }
+
+    /* Red accent bar top */
+    .accent-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 520px;
+      height: 6px;
+      background: linear-gradient(to right, #c8102e, #ff4560);
+    }
+
+    /* Red accent bar bottom */
+    .accent-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 520px;
+      height: 6px;
+      background: linear-gradient(to right, #c8102e, #ff4560);
+    }
+
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 530px;
+      height: 1080px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 108px 56px 72px 64px;
+      gap: 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #c8102e;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 3px;
+      margin-bottom: 28px;
+      width: fit-content;
+    }
+
+    .headline {
+      font-size: 52px;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      margin-bottom: 24px;
+    }
+
+    .headline span {
+      color: #ff4560;
+    }
+
+    .divider {
+      width: 56px;
+      height: 3px;
+      background: #c8102e;
+      margin-bottom: 28px;
+      border-radius: 2px;
+    }
+
+    .body-text {
+      font-size: 17.5px;
+      font-weight: 400;
+      color: #d0d0d0;
+      line-height: 1.65;
+      margin-bottom: 40px;
+    }
+
+    .dates {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 40px;
+    }
+
+    a.date-card { text-decoration: none; }
+    a.date-card:hover { border-color: rgba(200,16,46,0.7); background: rgba(200,16,46,0.2); }
+
+    .link-hint {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #ff4560;
+      letter-spacing: 0.06em;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+
+    .date-card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: rgba(200,16,46,0.12);
+      border: 1px solid rgba(200,16,46,0.35);
+      border-radius: 8px;
+      padding: 14px 20px;
+    }
+
+    .date-icon {
+      width: 40px;
+      height: 40px;
+      background: #c8102e;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .date-icon .month {
+      font-size: 9px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .date-icon .day {
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1;
+    }
+
+    .date-info .session {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.02em;
+    }
+
+    .date-info .type {
+      font-size: 13px;
+      font-weight: 400;
+      color: #aaa;
+      margin-top: 2px;
+    }
+
+    .cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #c8102e, #ff2244);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border-radius: 6px;
+      width: fit-content;
+      box-shadow: 0 4px 24px rgba(200,16,46,0.4);
+    }
+
+    .logo {
+      position: absolute;
+      top: 32px;
+      left: 56px;
+      height: 56px;
+      width: auto;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      opacity: 0.9;
+    }
+
+    .byline {
+      position: absolute;
+      bottom: 36px;
+      left: 64px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="canvas">
+
+    <img class="photo" src="portrait.jpg" alt="Stuart Blake Jones at the colour grading suite"/>
+    <img class="logo" src="../CS%20Color%20logo.jpeg" alt="CS Color logo"/>
+    <div class="overlay"></div>
+    <div class="accent-top"></div>
+    <div class="accent-bottom"></div>
+
+    <div class="content">
+      <div class="tag">Training Event</div>
+
+      <h1 class="headline">
+        Learn <span>Great</span><br>
+        Resolve Tips<br>
+        &amp; Tricks
+      </h1>
+
+      <div class="divider"></div>
+
+      <p class="body-text">
+        Exclusive insights you'll never find<br>
+        in a free training — taught by an<br>
+        industry professional with over<br>
+        <strong style="color:#fff;">30 years of experience.</strong>
+      </p>
+
+      <div class="dates">
+        <a class="date-card" href="https://www.eventbrite.de/e/davinci-resolve-21-for-the-advanced-user-tickets-1991576167930?aff=oddtdtcreator" target="_blank">
+          <div class="date-icon">
+            <span class="month">Jun</span>
+            <span class="day">19</span>
+          </div>
+          <div class="date-info">
+            <div class="session">Thursday 19 June · 13:00 CEST</div>
+            <div class="type">DaVinci Resolve 21 for the Advanced User</div>
+            <div class="link-hint">Register on Eventbrite →</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="byline">stuartblakejones.com</div>
+
+  </div>
+</body>
+</html>

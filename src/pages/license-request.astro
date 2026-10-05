@@ -1,0 +1,120 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const plugins = [
+  'Vertical Scratch Fix',
+  'Blue Stain Fix',
+  'Film Warp Fix',
+  'Technicolor Registration Fix',
+  'Technicolor Look',
+  'Forensic Enhancement',
+  'Look Creator',
+  'Cinematic Look Creator',
+  'Optical Sound To Wav',
+  'Film Stabilizer 3D',
+  'Image Stabilizer',
+  'Film Grain Removal',
+  'Film Colorize AI',
+  'Frame Reconstruction AI',
+  'Bleach Stain Fix',
+  'Scratch Paint Fix',
+  'Detail Recovery',
+  'Color Equilizer',
+  'Media Clean',
+  'Noise Reduction',
+  'Perf Stabilizer',
+  'Dust Buster',
+];
+---
+
+<Layout title="License Request">
+  <h1>Request a License</h1>
+  <p>
+    Purchase a license for a single Creative Restoration OFX plugin or the
+    complete suite. Each plugin includes a 7-day trial. After purchase you will
+    receive a license key by email.
+  </p>
+
+  <form
+    name="license-request"
+    method="POST"
+    data-netlify="true"
+    action="/license-request-thanks"
+    style="display: grid; gap: 1.25rem; max-width: 600px; margin-top: 2rem;"
+  >
+    <input type="hidden" name="form-name" value="license-request" />
+
+    <div>
+      <label for="name" style="display: block; margin-bottom: 0.5rem;">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        style="width: 100%; padding: 0.75rem; border: 1px solid rgba(var(--accent-light), 0.3); border-radius: 4px; background: rgba(255,255,255,0.1); color: white;"
+      />
+    </div>
+
+    <div>
+      <label for="email" style="display: block; margin-bottom: 0.5rem;">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        style="width: 100%; padding: 0.75rem; border: 1px solid rgba(var(--accent-light), 0.3); border-radius: 4px; background: rgba(255,255,255,0.1); color: white;"
+      />
+    </div>
+
+    <div>
+      <label for="license-type" style="display: block; margin-bottom: 0.5rem;">License type</label>
+      <select
+        id="license-type"
+        name="license-type"
+        required
+        style="width: 100%; padding: 0.75rem; border: 1px solid rgba(var(--accent-light), 0.3); border-radius: 4px; background: rgba(255,255,255,0.1); color: white;"
+      >
+        <option value="">-- Select --</option>
+        <option value="single-plugin">Single plugin</option>
+        <option value="full-suite">Full Creative Restoration suite</option>
+      </select>
+    </div>
+
+    <div id="plugin-selection" style="display: none;">
+      <label style="display: block; margin-bottom: 0.5rem;">Which plugin(s) do you want to license?</label>
+      <div style="display: grid; gap: 0.5rem; max-height: 220px; overflow-y: auto; padding: 0.75rem; border: 1px solid rgba(var(--accent-light), 0.2); border-radius: 4px;">
+        {plugins.map((plugin) => (
+          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input type="checkbox" name="plugins" value={plugin} />
+            <span>{plugin}</span>
+          </label>
+        ))}
+      </div>
+    </div>
+
+    <div>
+      <label for="message" style="display: block; margin-bottom: 0.5rem;">Message / notes (optional)</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        style="width: 100%; padding: 0.75rem; border: 1px solid rgba(var(--accent-light), 0.3); border-radius: 4px; background: rgba(255,255,255,0.1); color: white; resize: vertical;"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      style="padding: 1rem 2rem; background: rgb(var(--accent)); color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: 600;"
+    >
+      Request License
+    </button>
+  </form>
+
+  <script is:inline>
+    const typeSelect = document.getElementById('license-type');
+    const pluginSelection = document.getElementById('plugin-selection');
+    typeSelect.addEventListener('change', () => {
+      pluginSelection.style.display = typeSelect.value === 'single-plugin' ? 'block' : 'none';
+    });
+  </script>
+</Layout>

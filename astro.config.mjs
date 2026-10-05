@@ -4,6 +4,6 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   output: 'static',
   adapter: netlify(),
-  site: 'https://blake-jones.com',
+  site: 'https://www.blake-jones.com',
   integrations: [],
 });
