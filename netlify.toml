@@ -37,5 +37,7 @@
     X-Frame-Options = "SAMEORIGIN"
 
 # Custom domain settings
+# Netlify resolves sites by UUID — "blake-jones-com" is a domain, not a
+# site ID, and caused "site not found" on `netlify deploy`.
 [context.production.environment]
-  NETLIFY_SITE_ID = "blake-jones-com"
+  NETLIFY_SITE_ID = "79d0bda4-732f-42c3-a23a-7052993d6002"
