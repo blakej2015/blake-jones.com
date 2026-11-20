@@ -662,6 +662,15 @@ author: "blake2019"
         </div>
 
         <div class="card">
+          <p class="name">Underwater Fix</p>
+          <p class="desc">Rescue underwater footage: red filter compensation for depth-related colour loss, plus detail enhancement and contrast.</p>
+          <div class="priceRow">
+            <div class="price">€150</div>
+            <a class="btn primary" href="https://paypal.me/blakejones209/150" target="_blank" rel="noreferrer">Buy</a>
+          </div>
+        </div>
+
+        <div class="card">
           <p class="name">Prefer the full suite?</p>
           <p class="desc">Unlock everything with one suite key.</p>
           <div class="priceRow">
